@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    height: 100px;
+    line-height: 100px;
+}
+
+nav ul.right{
+    float: right;
+    position: relative;
+    right: 150px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul li a{
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.8;
+}
