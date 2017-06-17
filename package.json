@@ -20,6 +20,7 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",
+    "less": "^2.7.2",
     "vue": "^2.3.4"
   }
 }
