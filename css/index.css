@@ -1,8 +1,23 @@
-*{
-    margin:0;
-    padding:0;
+body, form, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, header, menu, footer, section, iframe, video, article, button {
+    margin: 0;
+    padding: 0;
 }
-nav{
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    min-width: 1140px;
+    font-size: 12px;
+    font-family: Microsoft Yahei, Avenir, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+    background: #ffffff;
+    color: #666;
+    position: relative;
+}
+
+nav {
     width: 100%;
     background: rgba(0, 0, 0, 0.6);
     position: fixed;
@@ -10,23 +25,32 @@ nav{
     z-index: 9;
     height: 100px;
     line-height: 100px;
+    opacity: 0.8;
 }
 
-nav ul.right{
+nav img {
+    /*width:100%;*/
+}
+
+nav ul.right {
     float: right;
     position: relative;
     right: 150px;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     list-style: none;
     margin-left: 50px;
 }
 
-nav ul li a{
+nav ul li a {
     display: block;
     font-size: 16px;
     color: #fff;
     opacity: 0.8;
+}
+
+nav ul li a:hover {
+    opacity: 1;
 }
